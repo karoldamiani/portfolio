@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Footer from './components/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-     <main>
-      <h1>Seu Nome</h1>
-      <p>Portfólio em construção.</p>
-    </main>
+ return (
+    <> 
+      <Header />
+      <main>
+        <Hero />
+        {/* As próximas seções entram aqui */}
+      </main>
+      <Footer />
+    </>
   )
 }
 
