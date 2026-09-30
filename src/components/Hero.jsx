@@ -1,9 +1,15 @@
 import './Hero.css'
 
 const stack = `const Kerolayne = {
-  foco: ['suporte de TI', 'desenvolvimento'],
-  stack: ['React', 'Node.js', 'Python','Java'],
-  status: 'aprendendo todo dia',
+  formação: "Análise e Desenvolvimento de Sistemas',
+  foco: ['suporte de TI', 'desenvolvimento web'],
+  tecnologias: {
+    frontend: ['HTML', 'CSS', 'JavaScript', 'React'],
+    backend: ['Python', 'Java', 'Node.js'],
+    dados: ['SQL', 'Supabase'],
+    ferramentas: ['Git', 'Docker', 'n8n']
+  },
+  status: 'sempre aprendendo'
 }`
 
 function Hero() {
@@ -11,10 +17,10 @@ function Hero() {
     <section id="inicio" className="hero">
       <div className="container hero__grid">
         <div>
-          <p className="hero__eyebrow">&gt; </p>
+          <p className="hero__eyebrow">&gt; desenvolvedora em formação </p>
           <h1 className="hero__title">Kerolayne Damiani</h1>
           <p className="hero__text">
-            Teste.
+            ADS student • Developer • Problem Solver
           </p>
           <div className="hero__actions">
             <a href="#projetos" className="button">Ver projetos</a>

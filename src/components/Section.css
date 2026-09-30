@@ -1,0 +1,21 @@
+.section {
+  padding: 5rem 0;
+  scroll-margin-top: 64px; /* compensa a altura do cabeçalho fixo */
+}
+
+.section__title {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section__title::before {
+  content: '// ';
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+
+.section__text {
+  max-width: 640px;
+  color: var(--muted);
+}

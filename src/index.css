@@ -1,10 +1,10 @@
 :root {
-  --bg: #1a120a;
-  --surface: #291c0e;
-  --border: #4a3325;
-  --text: #e1d4c2;
-  --muted: #a78d78;
-  --accent: #c7a9a3;
+  --bg: #0b0e1a;
+  --surface: #2c1b2f;
+  --border: #0b0e1a;
+  --text: #f3e9ec;
+  --muted: #b47a9a;
+  --accent: #f3e9ec;
 
   --font-title: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;

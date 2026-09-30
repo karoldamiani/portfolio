@@ -4,10 +4,10 @@ function Header() {
     return(
         <header className='header'>
             <div className="container header__inner">
-        <a href="#inicio" className="header__logo">~/karol</a>
+        <a href="#inicio" className="header__logo">~/kerolayne</a>
         <nav className="header__nav">
           <a href="#sobre">Sobre</a>
-          <a href="#tecnologias">Tecnologias</a>
+          <a href="#tecnologias">Stack</a>
           <a href="#projetos">Projetos</a>
           <a href="#contato">Contato</a>
         </nav>
