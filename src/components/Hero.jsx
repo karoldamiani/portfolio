@@ -1,15 +1,10 @@
 import './Hero.css'
 
-const stack = `const Kerolayne = {
-  formação: "Análise e Desenvolvimento de Sistemas',
-  foco: ['lalala', 'lalal'],
-  tecnologias: {
-    frontend: ['HTML', 'CSS', 'JavaScript', 'React'],
-    backend: ['Python', 'Java', 'Node.js'],
-    dados: ['SQL', 'Supabase'],
-    ferramentas: ['Git', 'Docker', 'n8n']
-  },
-  status: 'lalalala'
+const stack = `const kerolayne = {
+  foco: ['desenvolvimento', 'suporte técnico'],
+  stack: ['React', 'Next.js', 'Java', 'Python'],
+  formacao: 'ADS · Unisinos',
+  status: 'buscando estágio',
 }`
 
 function Hero() {

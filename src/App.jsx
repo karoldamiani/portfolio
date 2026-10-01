@@ -20,8 +20,12 @@ function App() {
             <p className="section__text">Colocar projetos.</p>            
           </Section>
 
+          <Section id="experiencia" title="Experiencia">
+             <p className="section__text">add Experiencia.</p>            
+          </Section>
+
           <Section id="contato" title="Contato">
-             <p className="section__text">Contatos.</p>            
+             <p className="section__text">add Contatos.</p>            
           </Section>
         
       </main>
