@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Section from './components/Section'
 import About from './components/About'
+import Stack from './components/Stack'
 
 
 function App() {
@@ -11,12 +12,9 @@ function App() {
       <Header />
       <main>
         <Hero />
-          <About />
-            
+          <About />            
           
-          <Section id="stack" title="Stack">
-             <p className="section__text">Stack.</p>            
-          </Section>
+          <Stack />
 
           <Section id="projetos" title="Projetos">
             <p className="section__text">Colocar projetos.</p>            
