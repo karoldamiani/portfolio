@@ -24,6 +24,10 @@ function App() {
              <p className="section__text">add Experiencia.</p>            
           </Section>
 
+          <Section id="cursos" title="Cursos">
+             <p className="section__text">add Cursos.</p>            
+          </Section>
+
           <Section id="contato" title="Contato">
              <p className="section__text">add Contatos.</p>            
           </Section>

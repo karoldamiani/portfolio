@@ -10,6 +10,7 @@ function Header() {
           <a href="#stack">Stack</a>
           <a href="#projetos">Projetos</a>
           <a href="#experiencia">Experiência</a>
+          <a href="#cursos">Cursos</a>
           <a href="#contato">Contato</a>
         </nav>
       </div>

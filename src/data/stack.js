@@ -1,18 +1,22 @@
 export const stack = [
   {
-    category: 'Front-end',
-    items: ['HTML', 'CSS', 'JavaScript', 'React'],
+    category: 'Linguagens',
+    items: ['Java', 'Python', 'JavaScript', 'TypeScript', 'Kotlin'],
   },
   {
-    category: 'Back-end',
-    items: ['Node.js', 'Python'],
+    category: 'Desenvolvimento web',
+    items: ['HTML', 'CSS', 'React', 'Next.js', 'Tailwind CSS'],
   },
   {
-    category: 'Banco de dados',
-    items: ['MySQL', 'PostgreSQL'],
+    category: 'Dados',
+    items: ['SQL', 'MySQL', 'Supabase'],
+  },
+  {
+    category: 'APIs e automação',
+    items: ['APIs REST', 'Z-API', 'n8n', 'Postman'],
   },
   {
     category: 'Ferramentas',
-    items: ['Git', 'GitHub', 'VS Code'],
+    items: ['Git', 'GitHub', 'Docker', 'VS Code'],
   },
 ]
