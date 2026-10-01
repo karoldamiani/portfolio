@@ -5,6 +5,7 @@ import Section from './components/Section'
 import About from './components/About'
 import Stack from './components/Stack'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -27,9 +28,7 @@ function App() {
              <p className="section__text">add Cursos.</p>            
           </Section>
 
-          <Section id="contato" title="Contato">
-             <p className="section__text">add Contatos.</p>            
-          </Section>
+          <Contact />
         
       </main>
       <Footer />
