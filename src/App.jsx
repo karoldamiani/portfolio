@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Section from './components/Section'
 import About from './components/About'
 import Stack from './components/Stack'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -16,9 +17,7 @@ function App() {
           
           <Stack />
 
-          <Section id="projetos" title="Projetos">
-            <p className="section__text">Colocar projetos.</p>            
-          </Section>
+          <Projects />
 
           <Section id="experiencia" title="Experiencia">
              <p className="section__text">add Experiencia.</p>            
